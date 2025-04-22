@@ -28,7 +28,6 @@ The dataset comprises synthetic sensor data simulating real industrial scenarios
 
 The `Error_Code` is determined based on specific conditions:
 
-```python
 if (rolling_avg_vibration > 1.0 and sudden_voltage_spike) or (signal drops over time):
     Error_Code = 1
 
